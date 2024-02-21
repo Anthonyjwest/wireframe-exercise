@@ -1,0 +1,75 @@
+header {
+    background-color: grey;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+nav a {
+    color:antiquewhite;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 225px;
+}
+
+.hero {
+    display: flex;
+    margin-top: 30px;
+    width: 100%; 
+}
+
+.subs {
+    display: flex;
+    margin-top:30px;
+    display: flex;
+    gap: 30px;
+}
+
+.fsb {
+   display: flex;
+   margin-top: 30px;
+   gap: 30px;
+   height: 300px;
+}
+
+.fsb img {
+    flex: 1;
+    width: 40%;
+}
+
+.fsb p {
+    flex: 2;
+    width: 40%;
+    overflow: scroll;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+}
+
+.words h2 {
+    font-size: larger;
+}
+
+.words button {
+    flex-direction: row;
+    margin-right: 500px;
+    height: 30px; 
+}
+
+footer {
+    background-color: grey;
+    width: 100%;
+    padding: 50px;
+    margin-top: 30px;
+    display: flex;
+}
